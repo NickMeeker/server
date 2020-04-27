@@ -1,0 +1,11 @@
+server:
+  port: 3001
+
+spring:
+  application:
+    name: Federated ML Server
+  data:
+    mongodb:
+      database: ml_db
+      port: 27017
+      host: localhost
